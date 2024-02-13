@@ -1,0 +1,75 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100lvh;
+}
+
+.players {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+/* .player, .user-player {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.user-player {
+    margin-top: 20px;
+}
+
+button {
+    margin: 5px;
+    border: none;
+    background-color: transparent;
+}
+
+
+.user-player{
+    position: absolute;
+    bottom: 50px;
+}
+
+.user-player button{
+    height: 100px;
+}
+
+.user-player button img{
+    height: inherit;
+}
+
+#player-2{
+    position: absolute;
+    top: 0;
+    left: 45vw;
+}
+
+#start{
+    background-color: aqua;
+    padding: 20px;
+}
+
+.player-img{
+    height: 10vw;
+}
+
+
+body{
+background-color: rgb(177, 207, 233);
+}
+
+@media screen and (max-width: 400px) {
+    .user-player button{
+        height: 60px;
+    }
+    
+    .user-player button img{
+        height: inherit;
+    }
+}
