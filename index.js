@@ -81,6 +81,7 @@ const handleUserChoice = (val) => {
     startRound();
   }
   turn.style.display = "none"
+  player4El.style.display = "none"
 
 };
 
@@ -158,7 +159,7 @@ function player3() {
 
   setExpVal();
   turn.style.display = "block"
-
+  player4El.style.display = "block"
 }
 
 function setExpVal() {
@@ -239,3 +240,4 @@ function reset() {
   startButton.style.display = "block"
 }
 turn.style.display = "none"
+player4El.style.display = "none"
