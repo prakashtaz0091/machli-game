@@ -210,6 +210,7 @@ function playSound(sound) {
 let startButton = document.getElementById("start");
 startButton.addEventListener("click", () => {
   startRound();
+  startButton.style.display = "none"
 });
 
 function machliSoundPlay() {
@@ -235,5 +236,6 @@ function reset() {
   player1El.innerText = "player-1"
   player2El.innerText = "player-2"
   player3El.innerText = "player-3"
+  startButton.style.display = "block"
 }
 turn.style.display = "none"
